@@ -98,3 +98,7 @@ sonar:
     }
 }
 ```
+
+### Other Configurations
+
+You can use a traditional `sonar-project.properties` config as well. Full options [here](https://docs.sonarqube.org/latest/analysis/analysis-parameters/)
