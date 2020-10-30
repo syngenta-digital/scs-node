@@ -3,9 +3,9 @@ Simple NPX package to run sonarcloud analysis
 
 ## Features
 
-    * Ability to run a sonarcloud scan in one command
-    * Supports most use cases and languages
-    * Support config files in JSON or YML
+* Ability to run a sonarcloud scan in one command
+* Supports most use cases and languages
+* Support config files in JSON or YML
 
 ## Installation & Usage
 
