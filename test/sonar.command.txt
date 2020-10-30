@@ -1,0 +1,1 @@
+@syngenta-digital/scs --key test-project --name test-name --version 1.0 --description "something to do" --sources src --exclusions node_modules --tests test --provider git --homepage https://www.test.com --issues https://www.test.com/issues --scm git+https://www.test.com

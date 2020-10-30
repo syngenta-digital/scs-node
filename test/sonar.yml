@@ -1,0 +1,16 @@
+token: optional-token
+organization: some-organization
+sonar:
+    projectKey: test-project
+    projectName: test-name
+    projectVersion: 1.0
+    projectDescription: test-description
+    sources: src
+    exclusions: node_modules
+    tests: test
+    scm:
+        provider: git
+    links:
+        homepage: https://www.test.com
+        issues: https://some-issu-url.com
+        scm: git+https://some-issu-url.com
