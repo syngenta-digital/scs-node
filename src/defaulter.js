@@ -70,7 +70,6 @@ const _configureFromFile = async (args) => {
     args.sonar['sonar.sources'] = sonar.sources;
     args.sonar['sonar.exclusions'] = sonar.exclusions;
     args.sonar['sonar.tests'] = sonar.tests;
-    args.sonar['sonar.branch.name'] = 'master';
     if (sonar.scm) {
         args.sonar['sonar.scm.provider'] = sonar.scm.provider;
     }
