@@ -6,7 +6,6 @@ commands:
     test:
         steps:
             - run: cat .npmrc
-            - run: npm login
     node-install:
         steps:
             - run: npm ci
