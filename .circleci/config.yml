@@ -28,7 +28,6 @@ jobs:
             - checkout
             - node-install
             - node-linter
-            - test
             - npm-deploy
             - slack-status
 workflows:
