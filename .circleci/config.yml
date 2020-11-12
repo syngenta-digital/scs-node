@@ -14,6 +14,7 @@ commands:
     npm-deploy:
         steps:
             - run: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > .npmrc
+            - run: cat .npmrc
             - run: npm version $CIRCLE_TAG --allow-same-version --no-git-tag-version
             - run: npm publish
     slack-status:
